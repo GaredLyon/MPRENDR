@@ -1,0 +1,31 @@
+:root 
+{
+    --black: black;
+    --yellow: #e9c33e;
+    --white: white;
+    --grey: #252526;
+}
+@font-face 
+{
+    font-family: SFProText-Light ;
+    src: url(fonts/SFProText-Light.ttf);
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: SFProtext-Light;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+.login p{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 12px;
+}
