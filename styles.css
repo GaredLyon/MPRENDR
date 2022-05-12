@@ -5,23 +5,76 @@
     --white: white;
     --grey: #252526;
 }
-@font-face 
-{
+@font-face  {
     font-family: SFProText-Light ;
-    /*src: url(fonts/SFProText-Light.ttf);*/
+    src: url(fonts/SFProText-Light.ttf);
 }
-* 
-{
+ 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body 
-{
+
+body {
     font-family: SFProtext-Light;
 }
-header
-{
+
+header {
     display: flex;
     justify-content: space-between;
+    background-color: var(--yellow);
+    padding: 40px 25px 40px 25px;
+    position: relative;
+   
 }
+.ingresa{
+    text-decoration: none;
+    padding: 0 75px 0 0;
+}
+
+.registra{
+    border: 1px solid var(--grey);
+    padding: 15px;
+    color: var(--black);
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.slogan-container{
+    background-image: url(./images/Vector-header.jpg);
+    background-size: cover;
+    background-color: transparent; 
+    padding: 45px 200px 700px 0px;
+
+}
+.slogan{
+    background-image: none;
+    text-align: center;
+   
+}
+
+.entras{
+    text-align: left;
+    margin: 100px 100px 25px 250px;
+    
+}
+
+.sales{
+    text-align: left;
+    margin: 20px 100px 25px 250px;
+}
+
+.button-registra{
+    border: 1px solid var(--black);
+    width: 150px;
+    height: 50px;
+    margin-left: 250px;
+    color: var(--black);
+    border-radius: 50px;
+    justify-content: left;
+    text-align:center;
+    
+}
+
