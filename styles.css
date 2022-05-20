@@ -5,24 +5,22 @@
     --white: white;
     --grey: #252526;
 }
-* {
+body {
+    font-family: 'Source Sans Pro', sans-serif; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: var(--yellow);
-    width: 100%;
-    height: 80px;
-   
+    height: 50px;
+    padding: 30px 10px 10px 20px;  
+    
 }
+
 .ingresa{
     text-decoration: none;
     padding: 0 75px 0 0;
@@ -33,29 +31,27 @@ header {
     padding: 15px;
     color: var(--black);
     border-radius: 50px;
-    justify-content: center;
+    justify-content: left;
     text-align: center;
     text-decoration: none;
 }
-.main-container{
 
+.main-container{
     background-image: url(./images/Vector-header.jpg);
-    background-size: 100% 100%;
-    height: 660px;
+    background-size: 100%;
+    height: block;
     background-position: absolute;
     background-attachment: absolute;
+    background-repeat: no-repeat;
 }
-.slogan-container
-{
-    background-size: auto;
-    height: 100%;
-}
+
 .slogan{
     text-align: left;
     padding: 170px 50px 0 135px;
     font-size: 65px;
 }
-.button-registra{
+
+.button-ingresa{
     border: 1px solid var(--black);
     width: 150px;
     height: 50px;
@@ -63,28 +59,29 @@ header {
     color: var(--black);
     border-radius: 50px;
     justify-content: left;
-    text-align:center;
-    
+    text-align:center;   
 }
-.experience-container
-{
+
+.experience-container{
     background-image: url(./images/img1.jpg);
-    background-size: 100% 100%;
-    height: 900px;
+    background-size: cover;
+    height: flex;
     background-position: absolute;
     position: relative;
     
 }
-.title{
-    text-align:right;
+
+.PEM{
+    text-align: -webkit-right;
     align-items: center;
-    box-sizing: content-box; 
-    padding: 10px; 
+    box-sizing: border-box; 
+    
     border-radius: 50px;
     background-color: rgba(255, 255, 255, .3) ;
-    color: white; 
- 
+    color:blue;
+    margin: 0 15px 0 900px;
 }
+
 .experiences
 {
     display: flex;
